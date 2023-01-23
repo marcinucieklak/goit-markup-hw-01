@@ -1,71 +1,185 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
     <head>
-        <title>Koty - wszystko co musisz wiedzieć</title>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Zadanie domowe studentów #1" />
+        <title>Zadanie domowe GOIT Polska</title>
     </head>
-
     <body>
-        <h1><span style="color: blue">Web</span>Studio</h1>
+        <header style="height: 80px; width: 1600px; display: flex; justify-content: space-between;">
+            <!-- Tutaj znajduje się nagłówek strony -->
+            <a href="/" style="padding-top: 24px; padding-left: 215px;">
+                <span style="font-family: Raleway; font-size: 26px; font-weight: bold; color:#2196F3; text-decoration: none;">Web</span>
+                <span style="margin-left:-5px; font-family: Raleway; font-size: 26px; font-weight: bold; color:#000000; text-decoration: none;">Studio</span>
+            </a>            
+            <nav style="display: flex; justify-content: centered; padding-top: 32px; font-family: Roboto; font-size: 14px; font-weight: 500; line-height: 16px; letter-spacing: 0.02em; text-align: left;">
+                <!-- Nawigacja do innych stron -->
+                <a href="#" style="color:#2196F3;">Agencja</a>
+                <a href="#" style="color:#000000; margin-left: 40px;">Agencja</href=>
+                <a href="#" style="color:#000000; margin-left: 40px;">Kontakt</href=>
+            </nav>
+            
+            <!-- Dane adresowe  -->
+            <div style="display: flex; justify-content: centered; padding-top: 32px; padding-right: 215px; font-family: Roboto; font-size: 14px; font-weight: 500; line-height: 16px; letter-spacing: 0.02em; text-align: left;">
+                <!-- Link do adresu e-mail  -->
+                <a href="mailto:info@devstudio.com" style="color:#2196F3;">info@devstudio.com</a>
+                <!-- Link do numeru telefonu -->
+                <a href="tel:+48111111111" style="color:#000000; margin-left: 40px;">+48 111 111 111</a>
+            </div>   
+            
+        </header>
+        
+        <main>
+            <!-- Tutaj znajduje się główna treść strony -->
+            <!-- TYTUŁ -->
+            <div style="background-color: #2F303A; height: 600px; width: 1600px; text-align: center;">
+                <h1 style="color: #FFFFFF; text-align: center; padding-top: 200px;">EFEKTYWNE ROZWIĄZANIA <br> DLA WASZEGO BIZNESU</h1>
+                <!-- PRZYCISK -->
+                <button type="button" style="background-color: #2196F3; color: #FFFFFF; margin: 0 auto; margin-top: 20px; width: 200px; height: 50px;">Zamów usługe</button>   
+            </div>
+            
+            <!-- 4 paragraph section -->
+            <div style="width: 1600px;">
+            <ul style="padding-top: 24px; padding-left: 215px; padding-right: 215px; display: flex; justify-content: space-between; list-style-type: none">
+                <li>
+                    <h3 style="font-family: Roboto; font-size: 14px; font-weight: 700; line-height: 16px; letter-spacing: 0.03em; text-align: left;">LOREM IPSUM</h3>
+                    <p style="width: 270px; font-family: Roboto; font-size: 14px; font-weight: 400; line-height: 24px; letter-spacing: 0.03em; text-align: left;
+                    ">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Fugiat veniam aperiam id modi saepe molestiae, 
+                        eveniet placeat perferendis inventore!
+                    </p>  
+                </li>
+                <li>
+                    <h3 style="font-family: Roboto; font-size: 14px; font-weight: 700; line-height: 16px; letter-spacing: 0.03em; text-align: left;">LOREM IPSUM</h3>
+                    <p style="width: 270px; font-family: Roboto; font-size: 14px; font-weight: 400; line-height: 24px; letter-spacing: 0.03em; text-align: left;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Fugiat veniam aperiam id modi saepe molestiae, 
+                        eveniet placeat perferendis inventore!
+                    </p>  
+                </li>
+                <li>
+                    <h3 style="font-family: Roboto; font-size: 14px; font-weight: 700; line-height: 16px; letter-spacing: 0.03em; text-align: left;">LOREM IPSUM</h3>
+                    <p style="width: 270px; font-family: Roboto; font-size: 14px; font-weight: 400; line-height: 24px; letter-spacing: 0.03em; text-align: left;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Fugiat veniam aperiam id modi saepe molestiae, 
+                        eveniet placeat perferendis inventore!
+                    </p>  
+                </li>
+                <li>
+                    <h3 style="font-family: Roboto; font-size: 14px; font-weight: 700; line-height: 16px; letter-spacing: 0.03em; text-align: left;">LOREM IPSUM</h3>
+                    <p style="width: 270px; font-family: Roboto; font-size: 14px; font-weight: 400; line-height: 24px; letter-spacing: 0.03em; text-align: left;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Fugiat veniam aperiam id modi saepe molestiae, 
+                        eveniet placeat perferendis inventore!
+                    </p>  
+                </li>
+            </ul>
+            </div>
+            
+            <!-- Area of interest -->
+            <div style="width: 1600px;">
+            <h2 style="text-align: center; padding-top: 60px; font-family: Roboto;font-size: 36px; font-weight: 700; line-height: 42px; letter-spacing: 0.03em;
+            ">Czym się zajmujemy</h2>
+            <ul style="padding-left: 215px; padding-right: 215px; display: flex; justify-content: space-between; list-style-type: none">
+                <li>
+                    <a href="#">
+                    <img src="images/programing.jpg" 
+                    alt="Close up image of programer working on his desk office"
+                    width="340" height="294" />                     
+                    </a>
+                </li>                               
+                
+                <li>
+                    <a href="#">
+                    <img src="images/android_studio_programing.jpg"  
+                    alt="Designer is developing smartphones application and is working on interface of mobile phones" 
+                    width="370" height="294" />
+                    </a>                    
+                </li>
+                <li>
+                    <a href="#">
+                    <img src="images/picking_color_from_color_palette.jpg" 
+                    alt="Creative web design artist working with colour selection graphic tablet"
+                    width="370" height="294" />
+                    </a>                    
+                </li>
+            </ul>
+            </div>   
 
-        <table>
-            <tr>
-                <td>komórka1</td>
-                <td>komórka2</td>
-            </tr>
-            <tr>
-                <td>komórka3</td>
-                <td>komórka4</td>
-            </tr>
-        </table>
-        <p>
-            Koty są jednymi z najbardziej popularnych zwierząt domowych na
-            świecie. Są inteligentne, przyjazne i zabawne. Są również bardzo
-            wytrzymałe i wytrzymałe. Koty są znane z tego, że są bardzo czyste i
-            lubią się myć. Są również bardzo dobrymi towarzyszami i mogą być
-            bardzo przywiązane do swoich właścicieli.
-        </p>
-        <p>
-            Koty są zwierzętami, które lubią się bawić. Lubią chodzić za
-            piłkami, myszkami i innymi zabawkami. Lubią również skakać i biegać.
-            Koty są również bardzo dobrymi łowcami. Mogą polować na ptaki,
-            szczury i inne małe zwierzęta.
-        </p>
-        <p>
-            Koty są również bardzo inteligentne. Potrafią uczyć się nowych
-            rzeczy i są w stanie zapamiętać różne polecenia. Są również bardzo
-            towarzyskie i lubią się bawić z innymi zwierzętami i ludźmi. Koty są
-            również bardzo przywiązane do swoich właścicieli i lubią spędzać
-            czas z nimi.
-        </p>
-        <h2>Koty - tabela</h2>
-        <table>
-            <tr>
-                <th>Cecha</th>
-                <th>Opis</th>
-            </tr>
-            <tr>
-                <td>Inteligencja</td>
-                <td>
-                    Koty są bardzo inteligentne i potrafią uczyć się nowych
-                    rzeczy.
-                </td>
-            </tr>
-            <tr>
-                <td>Czystość</td>
-                <td>
-                    Koty są znane z tego, że są bardzo czyste i lubią się myć.
-                </td>
-            </tr>
-            <tr>
-                <td>Towarzyskość</td>
-                <td>
-                    Koty są bardzo towarzyskie i lubią się bawić z innymi
-                    zwierzętami i ludźmi.
-                </td>
-            </tr>
-        </table>
-        <h2>Zdjęcia kotów</h2>
-        <img src="kot1.jpg" alt="Kot siedzący na parapetie" />
-        <img src="kot2.jpg" alt="Kot bawiący się piłką" />
+            <!-- Our team -->
+            <div style="background-color: #F5F4FA; height: 648px; width: 1600px; 
+            font-family: Roboto; font-size: 16px; font-weight: 500; line-height: 19px; letter-spacing: 0.03em; text-align: center;">
+            <h2 style="text-align: center; padding-top: 94px; font-family: Roboto;font-size: 36px; font-weight: 700; line-height: 42px; letter-spacing: 0.03em;">Nasz zespół</h2>
+            
+            <ul style="padding-left: 215px; padding-right: 215px; display: flex; justify-content: space-between;">
+                <li>
+                <div style="background-color: #FFFFFF; height: 368px; width: 270px;">
+                <figure style="margin: 0;">    
+                    <img src="images/person1.jpg" 
+                    alt="John Doe bust Photo"
+                    width="270" height="260" />                     
+                    <figcaption>John Doe</figcaption>                   
+                </figure>    
+                    <p style="color: #757575;">Product Designer</p>
+                </div> 
+                </li>
+                
+                <li>
+                <div style="background-color: #FFFFFF; height: 368px; width: 270px;">
+                <figure style="margin: 0;">    
+                    <img src="images/person2.jpg" 
+                    alt="John Doe bust Photo"
+                    width="270" height="260" />                     
+                    <figcaption>John Doe</figcaption>                   
+                </figure>    
+                    <p style="color: #757575;">Frontend Developer</p>
+                </div> 
+                </li>
+                
+                <li>
+                <div style="background-color: #FFFFFF; height: 368px; width: 270px;">
+                <figure style="margin: 0;">    
+                    <img src="images/person3.jpg" 
+                    alt="John Doe bust Photo"
+                    width="270" height="260" />                     
+                    <figcaption>John Doe</figcaption>                   
+                </figure>    
+                    <p style="color: #757575;">Marketing</p>
+                </div> 
+                </li>
+
+                <li>
+                <div style="background-color: #FFFFFF; height: 368px; width: 270px;">
+                <figure style="margin: 0;">    
+                    <img src="images/person4.jpg" 
+                    alt="John Doe bust Photo"
+                    width="270" height="260" />                     
+                    <figcaption>John Doe</figcaption>                   
+                </figure>    
+                    <p style="color: #757575;">UI Designer</p>
+                </div> 
+                </li>
+            </ul>    
+            </div>
+        </main>
+        <footer style="background-color: #2F303A; height: 252px; width: 1600px; display: block;">
+            <!-- Tutaj znajduje się stopka strony -->
+            
+            <href="/" style="position:relative; left: 215px; top: 60px; ">
+                <span style="font-family: Raleway; font-size: 26px; font-weight: bold; color:#2196F3; text-decoration: none;">Web</span>
+                <span style="margin-left:-5px; font-family: Raleway; font-size: 26px; font-weight: bold; color:#FFFFFF; text-decoration: none;">Studio</span>
+            </a>    
+            
+                <!-- Adress  -->
+                <address style="position:relative; top: 20px;color:#FFFFFF;">m. Warszawa, Aleje Jerozolimskie 21</address> 
+                
+                <!-- Link do adresu e-mail  -->
+                <a href="mailto:info@devstudio.com" style="position:relative; top: 20px; color:#757575;">info@devstudio.com<br></a>
+                
+                <!-- Link do numeru telefonu -->   
+                <a href="tel:+48111111111" style="position:relative; top: 20px; color:#757575;">+48 111 111 111</a>
+               
+        </footer>
     </body>
 </html>
